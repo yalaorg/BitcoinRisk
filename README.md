@@ -4,10 +4,7 @@
 
 - [About Yala Protocol](#about-yala-protocol)
 - [Installation](#installation)
-- [Usage](#usage)
 - [System Architecture](#system-architecture)
-- [API Reference](#api-reference)
-- [Contributing](#contributing)
 
 ## About Yala Protocol
 
@@ -17,7 +14,7 @@ Yala is a decentralized Bitcoin-backed stablecoin lending protocol that allows u
 
 * **Bitcoin-Backed Loans**
   - Use BTC as collateral
-  - Borrow stablecoins against your BTC
+  - Borrow stablecoins against BTC
   - Flexible loan terms
 
 * **Risk Management**
@@ -35,41 +32,13 @@ Yala is a decentralized Bitcoin-backed stablecoin lending protocol that allows u
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/yala-risk.git
-cd yala-risk
+git clone https://github.com/yalaorg/BitcoinRisk.git
+cd BitcoinRisk
 ```
 
 2. Install dependencies:
 ```bash
 pip install -r requirements.txt
-```
-
-3. Setup environment:
-```bash
-cp .env.example .env
-# Edit .env with your configuration
-```
-
-## Usage
-
-### Data Preparation
-```bash
-python DataPrep.py
-```
-
-### Risk Analysis
-```bash
-python RiskAnalysis.py
-```
-
-### Visualization
-```bash
-python RiskVisualization.py
-```
-
-### Start API Service
-```bash
-python api_service.py
 ```
 
 ## System Architecture
@@ -135,7 +104,7 @@ GET /api/v1/model/info
 
 ## Contact
 
-Your Name - [@vickyfu09](https://x.com/VickyFu09)
+Dev - [@vickyfu09](https://x.com/VickyFu09)
 
 
 ## Acknowledgements
