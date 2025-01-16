@@ -133,26 +133,11 @@ POST /api/v1/predict/risk
 GET /api/v1/model/info
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
+Your Name - [@vickyfu09](https://x.com/VickyFu09)
 
-Project Link: [https://github.com/yourusername/yala-risk](https://github.com/yourusername/yala-risk)
 
 ## Acknowledgements
 
-* Bitcoin price data from [Data Source]
-* Machine learning models built with scikit-learn
-* Visualization powered by matplotlib
+* Bitcoin price data from Yahoo Finance
