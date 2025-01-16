@@ -1,0 +1,57 @@
+Lending Protocol Risk Analysis Report
+Generated on: 2025-01-16 12:14:17
+==================================================
+
+LIQUIDATION PARAMETERS
+------------------------------
+Recommended Initial LTV: 58.32%
+Liquidation Threshold: 52.49%
+Maximum Daily Drop: -37.17%
+Daily VaR (99%): -10.13%
+
+PRICE MOVEMENT BY TIME WINDOW
+------------------------------
+1-Day Window:
+  Max Drop: -37.17%
+  VaR (99%): -10.13%
+  Std Dev: 3.62%
+
+3-Day Window:
+  Max Drop: -37.27%
+  VaR (99%): -15.98%
+  Std Dev: 6.24%
+
+5-Day Window:
+  Max Drop: -44.21%
+  VaR (99%): -19.75%
+  Std Dev: 8.15%
+
+7-Day Window:
+  Max Drop: -45.25%
+  VaR (99%): -23.31%
+  Std Dev: 9.84%
+
+14-Day Window:
+  Max Drop: -44.38%
+  VaR (99%): -30.84%
+  Std Dev: 14.67%
+
+30-Day Window:
+  Max Drop: -60.32%
+  VaR (99%): -39.44%
+  Std Dev: 23.91%
+
+REPAYMENT WINDOWS
+------------------------------
+Recommended Window: 5 days
+Median Recovery Time: 15.5 days
+90th Percentile Recovery: 30.0 days
+Maximum Recovery Time: 30.0 days
+
+INTEREST RATE PARAMETERS
+------------------------------
+Base Rate: 31.70%
+Optimal Utilization: 80.00%
+Maximum Rate: 95.11%
+Slope 1 (0 to optimal): 0.7926
+Slope 2 (optimal to max): 1.5851
