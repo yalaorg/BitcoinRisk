@@ -131,9 +131,9 @@ POST /api/v1/predict/risk
 ```json
 {
     "timestamp": "2024-01-16T10:00:00",
-    "btc_price": 45000.0,
+    "btc_price": 90000.0,
     "collateral": 1.5,
-    "loan_amount": 50000
+    "loan_amount": 60000
 }
 ```
 
@@ -142,7 +142,7 @@ POST /api/v1/predict/risk
 {
     "risk_level": "medium",
     "recommended_ltv": 0.75,
-    "liquidation_price": 42000.0,
+    "liquidation_price": 67500.0,
     "warnings": []
 }
 ```
