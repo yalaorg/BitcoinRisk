@@ -1,5 +1,5 @@
 # Bitcoin Risk Analysis Report for Yala Protocol
-Generated daily updated 2025-01-16 
+Generated daily updated 2025-01-16 for recommendation purpose 
 
 ## 1. Market Analysis
 
@@ -47,7 +47,6 @@ The analysis of recovery patterns shows:
 Recommended protocol parameters:
 - Initial LTV: 63.53%
 - Liquidation threshold: 68.53%
-- Base interest rate: 28.70%
 
 ## 4. Risk Management Recommendations
 
