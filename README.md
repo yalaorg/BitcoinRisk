@@ -4,6 +4,7 @@
 
 - [About Yala Protocol](#about-yala-protocol)
 - [Installation](#installation)
+- [Machine Learning](#Machine-Learning-Models)
 - [System Architecture](#system-architecture)
 
 ## About Yala Protocol
@@ -27,6 +28,56 @@ Yala is a decentralized Bitcoin-backed stablecoin lending protocol that allows u
   - Liquidation Threshold: 90%
   - Repayment Window: 5 days
   - Minimum Collateral: 0.1 BTC
+
+
+## Machine Learning Models
+
+### Risk Classification Model
+- Type: Random Forest Classifier
+- Features: 
+  * Price momentum indicators
+  * Volatility metrics
+  * Volume indicators
+  * Technical analysis signals
+- Target Variables:
+  * Risk level (Low/Medium/High)
+  * Price direction prediction
+  * Volatility regime classification
+
+### Volatility Prediction Model
+- Type: Gradient Boosting Regressor
+- Features:
+  * Historical volatility patterns
+  * Market regime indicators
+  * Trading volume metrics
+- Predictions:
+  * Forward-looking volatility
+  * Risk regime transitions
+  * Market stress indicators
+
+### Model Training
+```bash
+python MLModel.py train --data-path data/bitcoin_history.csv
+```
+
+### Model Inference
+```bash
+python MLModel.py predict --input-data current_market.csv
+```
+
+## Risk Analysis
+
+### Visualization Tools
+```bash
+python RiskVisualization.py
+```
+Generates the following plots:
+- Price and volatility trends
+- Drawdown analysis
+- Return distribution
+- Recovery patterns
+- Interest rate model
+- Volatility regimes
 
 ## Installation
 
