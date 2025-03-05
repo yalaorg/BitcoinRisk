@@ -1,5 +1,5 @@
 # Bitcoin Risk Analysis Report for Yala Protocol
-Generated: 2025-02-19 15:21:44
+Generated: 2025-03-05 14:17:09
 
 ## 1. Market Analysis
 
@@ -7,16 +7,16 @@ Generated: 2025-02-19 15:21:44
 ![Price and Volatility](../figures/price_and_volatility.png)
 
 The above graph shows Bitcoin's price history and its 30-day rolling volatility. Key observations:
-- Current annualized volatility: 57.22%
+- Current annualized volatility: 57.26%
 - Historical price patterns show cyclical volatility regimes
 
 ### Volatility Regime Analysis
 ![Volatility Regimes](../figures/volatility_regimes.png)
 
 The volatility regime analysis identifies three distinct market states:
-- Low volatility: < 40.05%
-- Medium volatility: 40.05% - 74.39%
-- High volatility: > 74.39%
+- Low volatility: < 40.08%
+- Medium volatility: 40.08% - 74.44%
+- High volatility: > 74.44%
 
 ## 2. Risk Analysis
 
@@ -24,9 +24,9 @@ The volatility regime analysis identifies three distinct market states:
 ![Return Distribution](../figures/return_distribution.png)
 
 Key risk metrics:
-- Value at Risk (95%): -5.57%
+- Value at Risk (95%): -5.58%
 - Value at Risk (99%): -10.09%
-- Annualized Volatility: 57.22%
+- Annualized Volatility: 57.26%
 
 ### Drawdown Analysis
 ![Drawdown Analysis](../figures/drawdown_analysis.png)
@@ -45,9 +45,9 @@ The analysis of recovery patterns shows:
 ![Interest Rate Model](../figures/interest_rate_model.png)
 
 Recommended protocol parameters:
-- Initial LTV: 63.61%
-- Liquidation threshold: 68.60%
-- Base interest rate: 28.61%
+- Initial LTV: 63.59%
+- Liquidation threshold: 68.58%
+- Base interest rate: 28.63%
 
 ## 4. Risk Management Recommendations
 

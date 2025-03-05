@@ -1,36 +1,36 @@
 Bitcoin Analysis Report
-Generated on: 2025-02-19 15:21:11
+Generated on: 2025-03-05 14:16:43
 ==================================================
 
 PRICE METRICS
 --------------------
-Current Price: $96,414.15
+Current Price: $89,913.90
 All-Time High: $109,114.88
 All-Time Low: $171.51
-30-Day Average: $99,575.62
+30-Day Average: $93,729.05
 
 RETURN METRICS
 --------------------
-Daily Returns Mean: 0.2061%
-Daily Returns Std: 3.6045%
-Annualized Return: 51.93%
-Annualized Volatility: 57.22%
+Daily Returns Mean: 0.2038%
+Daily Returns Std: 3.6071%
+Annualized Return: 51.36%
+Annualized Volatility: 57.26%
 
 RISK METRICS
 --------------------
 Maximum Drawdown: -83.40%
-Current Drawdown: -9.17%
-Value at Risk (95%): -5.57%
+Current Drawdown: -15.29%
+Value at Risk (95%): -5.58%
 Value at Risk (99%): -10.09%
 
 VOLUME METRICS
 --------------------
-Average Daily Volume: $18,988,894,965
-Current Volume: $31,828,582,400
-Volume Ratio: 0.67x
+Average Daily Volume: $19,110,999,798
+Current Volume: $56,049,303,552
+Volume Ratio: 1.26x
 
 RECENT PERFORMANCE
 --------------------
-1-Day Return: 0.92%
-7-Day Return: -0.22%
-30-Day Return: -9.17%
+1-Day Return: 3.09%
+7-Day Return: 6.15%
+30-Day Return: -8.13%
